@@ -22,7 +22,7 @@
         "validateOnSynth": false,
         "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-deploy-role-${AWS::AccountId}-${AWS::Region}",
         "cloudFormationExecutionRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-cfn-exec-role-${AWS::AccountId}-${AWS::Region}",
-        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/6ff08fffb22cebe0dc61a5b18049c5678ada4d4002fb55e886dca73d6baa46d8.json",
+        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}/3106cc5c403e7ef319f627d94d575d80d81a6a5ac383f4570daa5dfa938cf7cc.json",
         "requiresBootstrapStackVersion": 6,
         "bootstrapStackVersionSsmParameter": "/cdk-bootstrap/hnb659fds/version",
         "additionalDependencies": [
@@ -71,6 +71,12 @@
             "data": "amplifyAuthUserPool4BA7F805"
           }
         ],
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/auth/amplifyAuth/UserPool/PostConfirmationCognito": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyAuthUserPoolPostConfirmationCognitoE7E727CF"
+          }
+        ],
         "/amplify-profilesapp-sebdu-sandbox-47155a53f0/auth/amplifyAuth/UserPoolAppClient/Resource": [
           {
             "type": "aws:cdk:logicalId",
@@ -111,6 +117,12 @@
           {
             "type": "aws:cdk:logicalId",
             "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/auth/reference-to-amplifyprofilesappsebdusandbox47155a53f0functionNestedStackfunctionNestedStackResourceF00B961BOutputs.amplifyprofilesappsebdusandbox47155a53f0functionpostconfirmationlambdaCA2FB606Arn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyprofilesappsebdusandbox47155a53f0functionNestedStackfunctionNestedStackResourceF00B961BOutputsamplifyprofilesappsebdusandbox47155a53f0functionpostconfirmationlambdaCA2FB606Arn"
           }
         ],
         "/amplify-profilesapp-sebdu-sandbox-47155a53f0/auth/amplifyprofilesappsebdusandbox47155a53f0authamplifyAuthUserPoolFEF0D318Ref": [
@@ -269,6 +281,66 @@
             "data": "groups"
           }
         ],
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/function/post-confirmation-lambda/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "postconfirmationlambdaServiceRoleD88F89BD"
+          }
+        ],
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/function/post-confirmation-lambda/ServiceRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "postconfirmationlambdaServiceRoleDefaultPolicyCD4BF2C1"
+          }
+        ],
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/function/post-confirmation-lambda/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "postconfirmationlambda195D98D2"
+          }
+        ],
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/function/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata"
+          }
+        ],
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/function/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable"
+          }
+        ],
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/function/amplifyprofilesappsebdusandbox47155a53f0functionpostconfirmationlambdaCA2FB606Arn": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyprofilesappsebdusandbox47155a53f0functionpostconfirmationlambdaCA2FB606Arn"
+          }
+        ],
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/function/amplifyprofilesappsebdusandbox47155a53f0functionpostconfirmationlambdaCA2FB606Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyprofilesappsebdusandbox47155a53f0functionpostconfirmationlambdaCA2FB606Ref"
+          }
+        ],
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/function/amplifyprofilesappsebdusandbox47155a53f0functionpostconfirmationlambdaServiceRole204ED560Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyprofilesappsebdusandbox47155a53f0functionpostconfirmationlambdaServiceRole204ED560Ref"
+          }
+        ],
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/function.NestedStack/function.NestedStackResource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "function1351588B"
+          }
+        ],
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/definedFunctions": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "definedFunctions"
+          }
+        ],
         "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/GraphQLAPI/Resource": [
           {
             "type": "aws:cdk:logicalId",
@@ -279,6 +351,12 @@
           {
             "type": "aws:cdk:logicalId",
             "data": "amplifyDataGraphQLAPITransformerSchemaFF50A789"
+          }
+        ],
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/GraphQLAPI/DefaultApiKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyDataGraphQLAPIDefaultApiKey1C8ED374"
           }
         ],
         "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/GraphQLAPI/NONE_DS": [
@@ -375,524 +453,532 @@
             "data": "amplifyDataAmplifyTableManagerNestedStackAmplifyTableManagerNestedStackResource86290833"
           }
         ],
-        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/Todo/DynamoDBModelTableReadIOPS": [
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/UserProfile/DynamoDBModelTableReadIOPS": [
           {
             "type": "aws:cdk:logicalId",
             "data": "DynamoDBModelTableReadIOPS"
           }
         ],
-        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/Todo/DynamoDBModelTableWriteIOPS": [
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/UserProfile/DynamoDBModelTableWriteIOPS": [
           {
             "type": "aws:cdk:logicalId",
             "data": "DynamoDBModelTableWriteIOPS"
           }
         ],
-        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/Todo/DynamoDBBillingMode": [
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/UserProfile/DynamoDBBillingMode": [
           {
             "type": "aws:cdk:logicalId",
             "data": "DynamoDBBillingMode"
           }
         ],
-        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/Todo/DynamoDBEnablePointInTimeRecovery": [
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/UserProfile/DynamoDBEnablePointInTimeRecovery": [
           {
             "type": "aws:cdk:logicalId",
             "data": "DynamoDBEnablePointInTimeRecovery"
           }
         ],
-        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/Todo/DynamoDBEnableServerSideEncryption": [
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/UserProfile/DynamoDBEnableServerSideEncryption": [
           {
             "type": "aws:cdk:logicalId",
             "data": "DynamoDBEnableServerSideEncryption"
           }
         ],
-        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/Todo/HasEnvironmentParameter": [
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/UserProfile/HasEnvironmentParameter": [
           {
             "type": "aws:cdk:logicalId",
             "data": "HasEnvironmentParameter"
           }
         ],
-        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/Todo/ShouldUsePayPerRequestBilling": [
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/UserProfile/ShouldUsePayPerRequestBilling": [
           {
             "type": "aws:cdk:logicalId",
             "data": "ShouldUsePayPerRequestBilling"
           }
         ],
-        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/Todo/ShouldUsePointInTimeRecovery": [
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/UserProfile/ShouldUsePointInTimeRecovery": [
           {
             "type": "aws:cdk:logicalId",
             "data": "ShouldUsePointInTimeRecovery"
           }
         ],
-        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/Todo/TodoTable": [
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/UserProfile/UserProfileTable": [
           {
             "type": "graphqltransformer:resourceName",
-            "data": "Todo"
+            "data": "UserProfile"
           }
         ],
-        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/Todo/TodoTable/Default/Default": [
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/UserProfile/UserProfileTable/Default/Default": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "TodoTable"
+            "data": "UserProfileTable"
           },
           {
             "type": "graphqltransformer:resourceName",
-            "data": "Todo"
+            "data": "UserProfile"
           }
         ],
-        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/Todo/CustomTableTodoTable": [
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/UserProfile/CustomTableUserProfileTable": [
           {
             "type": "graphqltransformer:resourceName",
-            "data": "Todo"
+            "data": "UserProfile"
           }
         ],
-        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/Todo/GetAttTodoTableStreamArn": [
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/UserProfile/GetAttUserProfileTableStreamArn": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "GetAttTodoTableStreamArn"
+            "data": "GetAttUserProfileTableStreamArn"
           }
         ],
-        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/Todo/GetAttTodoTableName": [
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/UserProfile/GetAttUserProfileTableName": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "GetAttTodoTableName"
+            "data": "GetAttUserProfileTableName"
           }
         ],
-        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/Todo/TodoIAMRole": [
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/UserProfile/UserProfileIAMRole": [
           {
             "type": "graphqltransformer:resourceName",
-            "data": "TodoIAMRole"
+            "data": "UserProfileIAMRole"
           }
         ],
-        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/Todo/TodoIAMRole/Resource": [
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/UserProfile/UserProfileIAMRole/Resource": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "TodoIAMRole2DA8E66E"
+            "data": "UserProfileIAMRoleA4E2934B"
           },
           {
             "type": "graphqltransformer:resourceName",
-            "data": "TodoIAMRole"
+            "data": "UserProfileIAMRole"
           }
         ],
-        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/Todo/TodoDataSource": [
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/UserProfile/UserProfileDataSource": [
           {
             "type": "graphqltransformer:resourceName",
-            "data": "TodoTable"
+            "data": "UserProfileTable"
           }
         ],
-        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/Todo/TodoDataSource/Resource": [
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/UserProfile/UserProfileDataSource/Resource": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "TodoDataSource"
+            "data": "UserProfileDataSource"
           },
           {
             "type": "graphqltransformer:resourceName",
-            "data": "TodoTable"
+            "data": "UserProfileTable"
           }
         ],
-        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/Todo/QuerygetTodoauth0Function/QuerygetTodoauth0Function.AppSyncFunction": [
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/UserProfile/QuerygetUserProfileauth0Function/QuerygetUserProfileauth0Function.AppSyncFunction": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "QuerygetTodoauth0FunctionQuerygetTodoauth0FunctionAppSyncFunction846D8436"
+            "data": "QuerygetUserProfileauth0FunctionQuerygetUserProfileauth0FunctionAppSyncFunctionDAD22839"
           },
           {
             "type": "graphqltransformer:resourceName",
-            "data": "QuerygetTodoauth0Function"
+            "data": "QuerygetUserProfileauth0Function"
           }
         ],
-        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/Todo/QuerygetTodopostAuth0Function/QuerygetTodopostAuth0Function.AppSyncFunction": [
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/UserProfile/QuerygetUserProfilepostAuth0Function/QuerygetUserProfilepostAuth0Function.AppSyncFunction": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "QuerygetTodopostAuth0FunctionQuerygetTodopostAuth0FunctionAppSyncFunction6BE14593"
+            "data": "QuerygetUserProfilepostAuth0FunctionQuerygetUserProfilepostAuth0FunctionAppSyncFunction92890504"
           },
           {
             "type": "graphqltransformer:resourceName",
-            "data": "QuerygetTodopostAuth0Function"
+            "data": "QuerygetUserProfilepostAuth0Function"
           }
         ],
-        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/Todo/QueryGetTodoDataResolverFn/QueryGetTodoDataResolverFn.AppSyncFunction": [
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/UserProfile/QueryGetUserProfileDataResolverFn/QueryGetUserProfileDataResolverFn.AppSyncFunction": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "QueryGetTodoDataResolverFnQueryGetTodoDataResolverFnAppSyncFunctionE2B57DAD"
+            "data": "QueryGetUserProfileDataResolverFnQueryGetUserProfileDataResolverFnAppSyncFunction8EB8BD57"
           },
           {
             "type": "graphqltransformer:resourceName",
-            "data": "QueryGetTodoDataResolverFn"
+            "data": "QueryGetUserProfileDataResolverFn"
           }
         ],
-        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/Todo/queryGetTodoResolver": [
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/UserProfile/queryGetUserProfileResolver": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "GetTodoResolver"
+            "data": "GetUserProfileResolver"
           },
           {
             "type": "graphqltransformer:resourceName",
-            "data": "Query.getTodo"
+            "data": "Query.getUserProfile"
           }
         ],
-        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/Todo/QuerylistTodosauth0Function/QuerylistTodosauth0Function.AppSyncFunction": [
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/UserProfile/QuerylistUserProfilesauth0Function/QuerylistUserProfilesauth0Function.AppSyncFunction": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "QuerylistTodosauth0FunctionQuerylistTodosauth0FunctionAppSyncFunction7D761961"
+            "data": "QuerylistUserProfilesauth0FunctionQuerylistUserProfilesauth0FunctionAppSyncFunction468B41DC"
           },
           {
             "type": "graphqltransformer:resourceName",
-            "data": "QuerylistTodosauth0Function"
+            "data": "QuerylistUserProfilesauth0Function"
           }
         ],
-        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/Todo/QuerylistTodospostAuth0Function/QuerylistTodospostAuth0Function.AppSyncFunction": [
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/UserProfile/QuerylistUserProfilespostAuth0Function/QuerylistUserProfilespostAuth0Function.AppSyncFunction": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "QuerylistTodospostAuth0FunctionQuerylistTodospostAuth0FunctionAppSyncFunction154D8577"
+            "data": "QuerylistUserProfilespostAuth0FunctionQuerylistUserProfilespostAuth0FunctionAppSyncFunction01122A7A"
           },
           {
             "type": "graphqltransformer:resourceName",
-            "data": "QuerylistTodospostAuth0Function"
+            "data": "QuerylistUserProfilespostAuth0Function"
           }
         ],
-        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/Todo/QueryListTodosDataResolverFn/QueryListTodosDataResolverFn.AppSyncFunction": [
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/UserProfile/QueryListUserProfilesDataResolverFn/QueryListUserProfilesDataResolverFn.AppSyncFunction": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "QueryListTodosDataResolverFnQueryListTodosDataResolverFnAppSyncFunctionF825FE47"
+            "data": "QueryListUserProfilesDataResolverFnQueryListUserProfilesDataResolverFnAppSyncFunctionA05E8B7A"
           },
           {
             "type": "graphqltransformer:resourceName",
-            "data": "QueryListTodosDataResolverFn"
+            "data": "QueryListUserProfilesDataResolverFn"
           }
         ],
-        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/Todo/queryListTodosResolver": [
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/UserProfile/queryListUserProfilesResolver": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "ListTodoResolver"
+            "data": "ListUserProfileResolver"
           },
           {
             "type": "graphqltransformer:resourceName",
-            "data": "Query.listTodos"
+            "data": "Query.listUserProfiles"
           }
         ],
-        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/Todo/MutationcreateTodoinit0Function/MutationcreateTodoinit0Function.AppSyncFunction": [
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/UserProfile/MutationcreateUserProfileinit0Function/MutationcreateUserProfileinit0Function.AppSyncFunction": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "MutationcreateTodoinit0FunctionMutationcreateTodoinit0FunctionAppSyncFunction54DE5B8B"
+            "data": "MutationcreateUserProfileinit0FunctionMutationcreateUserProfileinit0FunctionAppSyncFunction7EFE9ED4"
           },
           {
             "type": "graphqltransformer:resourceName",
-            "data": "MutationcreateTodoinit0Function"
+            "data": "MutationcreateUserProfileinit0Function"
           }
         ],
-        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/Todo/MutationcreateTodoauth0Function/MutationcreateTodoauth0Function.AppSyncFunction": [
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/UserProfile/MutationcreateUserProfileauth0Function/MutationcreateUserProfileauth0Function.AppSyncFunction": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "MutationcreateTodoauth0FunctionMutationcreateTodoauth0FunctionAppSyncFunction21817E36"
+            "data": "MutationcreateUserProfileauth0FunctionMutationcreateUserProfileauth0FunctionAppSyncFunctionCF3841B8"
           },
           {
             "type": "graphqltransformer:resourceName",
-            "data": "MutationcreateTodoauth0Function"
+            "data": "MutationcreateUserProfileauth0Function"
           }
         ],
-        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/Todo/MutationcreateTodopostAuth0Function/MutationcreateTodopostAuth0Function.AppSyncFunction": [
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/UserProfile/MutationcreateUserProfilepostAuth0Function/MutationcreateUserProfilepostAuth0Function.AppSyncFunction": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "MutationcreateTodopostAuth0FunctionMutationcreateTodopostAuth0FunctionAppSyncFunctionED59EB9F"
+            "data": "MutationcreateUserProfilepostAuth0FunctionMutationcreateUserProfilepostAuth0FunctionAppSyncFunctionF0C8FEFF"
           },
           {
             "type": "graphqltransformer:resourceName",
-            "data": "MutationcreateTodopostAuth0Function"
+            "data": "MutationcreateUserProfilepostAuth0Function"
           }
         ],
-        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/Todo/MutationCreateTodoDataResolverFn/MutationCreateTodoDataResolverFn.AppSyncFunction": [
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/UserProfile/MutationCreateUserProfileDataResolverFn/MutationCreateUserProfileDataResolverFn.AppSyncFunction": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "MutationCreateTodoDataResolverFnMutationCreateTodoDataResolverFnAppSyncFunction900EC5CF"
+            "data": "MutationCreateUserProfileDataResolverFnMutationCreateUserProfileDataResolverFnAppSyncFunction120FE646"
           },
           {
             "type": "graphqltransformer:resourceName",
-            "data": "MutationCreateTodoDataResolverFn"
+            "data": "MutationCreateUserProfileDataResolverFn"
           }
         ],
-        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/Todo/mutationCreateTodoResolver": [
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/UserProfile/mutationCreateUserProfileResolver": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "CreateTodoResolver"
+            "data": "CreateUserProfileResolver"
           },
           {
             "type": "graphqltransformer:resourceName",
-            "data": "Mutation.createTodo"
+            "data": "Mutation.createUserProfile"
           }
         ],
-        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/Todo/MutationupdateTodoinit0Function/MutationupdateTodoinit0Function.AppSyncFunction": [
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/UserProfile/MutationupdateUserProfileinit0Function/MutationupdateUserProfileinit0Function.AppSyncFunction": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "MutationupdateTodoinit0FunctionMutationupdateTodoinit0FunctionAppSyncFunction1B95BB19"
+            "data": "MutationupdateUserProfileinit0FunctionMutationupdateUserProfileinit0FunctionAppSyncFunction9A840BAA"
           },
           {
             "type": "graphqltransformer:resourceName",
-            "data": "MutationupdateTodoinit0Function"
+            "data": "MutationupdateUserProfileinit0Function"
           }
         ],
-        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/Todo/MutationupdateTodoauth0Function/MutationupdateTodoauth0Function.AppSyncFunction": [
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/UserProfile/MutationupdateUserProfileauth0Function/MutationupdateUserProfileauth0Function.AppSyncFunction": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "MutationupdateTodoauth0FunctionMutationupdateTodoauth0FunctionAppSyncFunction1E4A3112"
+            "data": "MutationupdateUserProfileauth0FunctionMutationupdateUserProfileauth0FunctionAppSyncFunction7E8F945B"
           },
           {
             "type": "graphqltransformer:resourceName",
-            "data": "MutationupdateTodoauth0Function"
+            "data": "MutationupdateUserProfileauth0Function"
           }
         ],
-        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/Todo/MutationupdateTodopostAuth0Function/MutationupdateTodopostAuth0Function.AppSyncFunction": [
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/UserProfile/MutationupdateUserProfilepostAuth0Function/MutationupdateUserProfilepostAuth0Function.AppSyncFunction": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "MutationupdateTodopostAuth0FunctionMutationupdateTodopostAuth0FunctionAppSyncFunction50C507D7"
+            "data": "MutationupdateUserProfilepostAuth0FunctionMutationupdateUserProfilepostAuth0FunctionAppSyncFunction206AFA76"
           },
           {
             "type": "graphqltransformer:resourceName",
-            "data": "MutationupdateTodopostAuth0Function"
+            "data": "MutationupdateUserProfilepostAuth0Function"
           }
         ],
-        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/Todo/MutationUpdateTodoDataResolverFn/MutationUpdateTodoDataResolverFn.AppSyncFunction": [
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/UserProfile/MutationUpdateUserProfileDataResolverFn/MutationUpdateUserProfileDataResolverFn.AppSyncFunction": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "MutationUpdateTodoDataResolverFnMutationUpdateTodoDataResolverFnAppSyncFunctionBC238C49"
+            "data": "MutationUpdateUserProfileDataResolverFnMutationUpdateUserProfileDataResolverFnAppSyncFunction1707D92F"
           },
           {
             "type": "graphqltransformer:resourceName",
-            "data": "MutationUpdateTodoDataResolverFn"
+            "data": "MutationUpdateUserProfileDataResolverFn"
           }
         ],
-        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/Todo/mutationUpdateTodoResolver": [
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/UserProfile/mutationUpdateUserProfileResolver": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "UpdateTodoResolver"
+            "data": "UpdateUserProfileResolver"
           },
           {
             "type": "graphqltransformer:resourceName",
-            "data": "Mutation.updateTodo"
+            "data": "Mutation.updateUserProfile"
           }
         ],
-        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/Todo/MutationdeleteTodoauth0Function/MutationdeleteTodoauth0Function.AppSyncFunction": [
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/UserProfile/MutationdeleteUserProfileauth0Function/MutationdeleteUserProfileauth0Function.AppSyncFunction": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "MutationdeleteTodoauth0FunctionMutationdeleteTodoauth0FunctionAppSyncFunctionC82C218C"
+            "data": "MutationdeleteUserProfileauth0FunctionMutationdeleteUserProfileauth0FunctionAppSyncFunction4A3AC4FD"
           },
           {
             "type": "graphqltransformer:resourceName",
-            "data": "MutationdeleteTodoauth0Function"
+            "data": "MutationdeleteUserProfileauth0Function"
           }
         ],
-        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/Todo/MutationdeleteTodopostAuth0Function/MutationdeleteTodopostAuth0Function.AppSyncFunction": [
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/UserProfile/MutationdeleteUserProfilepostAuth0Function/MutationdeleteUserProfilepostAuth0Function.AppSyncFunction": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "MutationdeleteTodopostAuth0FunctionMutationdeleteTodopostAuth0FunctionAppSyncFunction483271A2"
+            "data": "MutationdeleteUserProfilepostAuth0FunctionMutationdeleteUserProfilepostAuth0FunctionAppSyncFunctionEE3F21F4"
           },
           {
             "type": "graphqltransformer:resourceName",
-            "data": "MutationdeleteTodopostAuth0Function"
+            "data": "MutationdeleteUserProfilepostAuth0Function"
           }
         ],
-        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/Todo/MutationDeleteTodoDataResolverFn/MutationDeleteTodoDataResolverFn.AppSyncFunction": [
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/UserProfile/MutationDeleteUserProfileDataResolverFn/MutationDeleteUserProfileDataResolverFn.AppSyncFunction": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "MutationDeleteTodoDataResolverFnMutationDeleteTodoDataResolverFnAppSyncFunction3879153F"
+            "data": "MutationDeleteUserProfileDataResolverFnMutationDeleteUserProfileDataResolverFnAppSyncFunction4835094F"
           },
           {
             "type": "graphqltransformer:resourceName",
-            "data": "MutationDeleteTodoDataResolverFn"
+            "data": "MutationDeleteUserProfileDataResolverFn"
           }
         ],
-        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/Todo/mutationDeleteTodoResolver": [
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/UserProfile/mutationDeleteUserProfileResolver": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "DeleteTodoResolver"
+            "data": "DeleteUserProfileResolver"
           },
           {
             "type": "graphqltransformer:resourceName",
-            "data": "Mutation.deleteTodo"
+            "data": "Mutation.deleteUserProfile"
           }
         ],
-        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/Todo/SubscriptiononCreateTodoauth0Function/SubscriptiononCreateTodoauth0Function.AppSyncFunction": [
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/UserProfile/SubscriptiononCreateUserProfileauth0Function/SubscriptiononCreateUserProfileauth0Function.AppSyncFunction": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "SubscriptiononCreateTodoauth0FunctionSubscriptiononCreateTodoauth0FunctionAppSyncFunction042EF9E1"
+            "data": "SubscriptiononCreateUserProfileauth0FunctionSubscriptiononCreateUserProfileauth0FunctionAppSyncFunctionD90BBD82"
           },
           {
             "type": "graphqltransformer:resourceName",
-            "data": "SubscriptiononCreateTodoauth0Function"
+            "data": "SubscriptiononCreateUserProfileauth0Function"
           }
         ],
-        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/Todo/SubscriptiononCreateTodopostAuth0Function/SubscriptiononCreateTodopostAuth0Function.AppSyncFunction": [
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/UserProfile/SubscriptiononCreateUserProfilepostAuth0Function/SubscriptiononCreateUserProfilepostAuth0Function.AppSyncFunction": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "SubscriptiononCreateTodopostAuth0FunctionSubscriptiononCreateTodopostAuth0FunctionAppSyncFunction18E34C4E"
+            "data": "SubscriptiononCreateUserProfilepostAuth0FunctionSubscriptiononCreateUserProfilepostAuth0FunctionAppSyncFunctionD659A080"
           },
           {
             "type": "graphqltransformer:resourceName",
-            "data": "SubscriptiononCreateTodopostAuth0Function"
+            "data": "SubscriptiononCreateUserProfilepostAuth0Function"
           }
         ],
-        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/Todo/SubscriptionOnCreateTodoDataResolverFn/SubscriptionOnCreateTodoDataResolverFn.AppSyncFunction": [
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/UserProfile/SubscriptionOnCreateUserProfileDataResolverFn/SubscriptionOnCreateUserProfileDataResolverFn.AppSyncFunction": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "SubscriptionOnCreateTodoDataResolverFnSubscriptionOnCreateTodoDataResolverFnAppSyncFunction462A70C9"
+            "data": "SubscriptionOnCreateUserProfileDataResolverFnSubscriptionOnCreateUserProfileDataResolverFnAppSyncFunction08AFEB08"
           },
           {
             "type": "graphqltransformer:resourceName",
-            "data": "SubscriptionOnCreateTodoDataResolverFn"
+            "data": "SubscriptionOnCreateUserProfileDataResolverFn"
           }
         ],
-        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/Todo/subscriptionOnCreateTodoResolver": [
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/UserProfile/subscriptionOnCreateUserProfileResolver": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "SubscriptiononCreateTodoResolver"
+            "data": "SubscriptiononCreateUserProfileResolver"
           },
           {
             "type": "graphqltransformer:resourceName",
-            "data": "Subscription.onCreateTodo"
+            "data": "Subscription.onCreateUserProfile"
           }
         ],
-        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/Todo/SubscriptiononUpdateTodoauth0Function/SubscriptiononUpdateTodoauth0Function.AppSyncFunction": [
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/UserProfile/SubscriptiononUpdateUserProfileauth0Function/SubscriptiononUpdateUserProfileauth0Function.AppSyncFunction": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "SubscriptiononUpdateTodoauth0FunctionSubscriptiononUpdateTodoauth0FunctionAppSyncFunction80D0DFA3"
+            "data": "SubscriptiononUpdateUserProfileauth0FunctionSubscriptiononUpdateUserProfileauth0FunctionAppSyncFunction48B7E90B"
           },
           {
             "type": "graphqltransformer:resourceName",
-            "data": "SubscriptiononUpdateTodoauth0Function"
+            "data": "SubscriptiononUpdateUserProfileauth0Function"
           }
         ],
-        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/Todo/SubscriptiononUpdateTodopostAuth0Function/SubscriptiononUpdateTodopostAuth0Function.AppSyncFunction": [
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/UserProfile/SubscriptiononUpdateUserProfilepostAuth0Function/SubscriptiononUpdateUserProfilepostAuth0Function.AppSyncFunction": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "SubscriptiononUpdateTodopostAuth0FunctionSubscriptiononUpdateTodopostAuth0FunctionAppSyncFunction04445BC7"
+            "data": "SubscriptiononUpdateUserProfilepostAuth0FunctionSubscriptiononUpdateUserProfilepostAuth0FunctionAppSyncFunction446153A7"
           },
           {
             "type": "graphqltransformer:resourceName",
-            "data": "SubscriptiononUpdateTodopostAuth0Function"
+            "data": "SubscriptiononUpdateUserProfilepostAuth0Function"
           }
         ],
-        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/Todo/SubscriptionOnUpdateTodoDataResolverFn/SubscriptionOnUpdateTodoDataResolverFn.AppSyncFunction": [
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/UserProfile/SubscriptionOnUpdateUserProfileDataResolverFn/SubscriptionOnUpdateUserProfileDataResolverFn.AppSyncFunction": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "SubscriptionOnUpdateTodoDataResolverFnSubscriptionOnUpdateTodoDataResolverFnAppSyncFunction523DF0E4"
+            "data": "SubscriptionOnUpdateUserProfileDataResolverFnSubscriptionOnUpdateUserProfileDataResolverFnAppSyncFunctionBCF119CA"
           },
           {
             "type": "graphqltransformer:resourceName",
-            "data": "SubscriptionOnUpdateTodoDataResolverFn"
+            "data": "SubscriptionOnUpdateUserProfileDataResolverFn"
           }
         ],
-        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/Todo/subscriptionOnUpdateTodoResolver": [
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/UserProfile/subscriptionOnUpdateUserProfileResolver": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "SubscriptiononUpdateTodoResolver"
+            "data": "SubscriptiononUpdateUserProfileResolver"
           },
           {
             "type": "graphqltransformer:resourceName",
-            "data": "Subscription.onUpdateTodo"
+            "data": "Subscription.onUpdateUserProfile"
           }
         ],
-        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/Todo/SubscriptiononDeleteTodoauth0Function/SubscriptiononDeleteTodoauth0Function.AppSyncFunction": [
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/UserProfile/SubscriptiononDeleteUserProfileauth0Function/SubscriptiononDeleteUserProfileauth0Function.AppSyncFunction": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "SubscriptiononDeleteTodoauth0FunctionSubscriptiononDeleteTodoauth0FunctionAppSyncFunctionF69F2220"
+            "data": "SubscriptiononDeleteUserProfileauth0FunctionSubscriptiononDeleteUserProfileauth0FunctionAppSyncFunction4558BD0E"
           },
           {
             "type": "graphqltransformer:resourceName",
-            "data": "SubscriptiononDeleteTodoauth0Function"
+            "data": "SubscriptiononDeleteUserProfileauth0Function"
           }
         ],
-        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/Todo/SubscriptiononDeleteTodopostAuth0Function/SubscriptiononDeleteTodopostAuth0Function.AppSyncFunction": [
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/UserProfile/SubscriptiononDeleteUserProfilepostAuth0Function/SubscriptiononDeleteUserProfilepostAuth0Function.AppSyncFunction": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "SubscriptiononDeleteTodopostAuth0FunctionSubscriptiononDeleteTodopostAuth0FunctionAppSyncFunctionE131CBE7"
+            "data": "SubscriptiononDeleteUserProfilepostAuth0FunctionSubscriptiononDeleteUserProfilepostAuth0FunctionAppSyncFunction3E69A1F9"
           },
           {
             "type": "graphqltransformer:resourceName",
-            "data": "SubscriptiononDeleteTodopostAuth0Function"
+            "data": "SubscriptiononDeleteUserProfilepostAuth0Function"
           }
         ],
-        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/Todo/SubscriptionOnDeleteTodoDataResolverFn/SubscriptionOnDeleteTodoDataResolverFn.AppSyncFunction": [
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/UserProfile/SubscriptionOnDeleteUserProfileDataResolverFn/SubscriptionOnDeleteUserProfileDataResolverFn.AppSyncFunction": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "SubscriptionOnDeleteTodoDataResolverFnSubscriptionOnDeleteTodoDataResolverFnAppSyncFunction3E641E8C"
+            "data": "SubscriptionOnDeleteUserProfileDataResolverFnSubscriptionOnDeleteUserProfileDataResolverFnAppSyncFunction6EDD6652"
           },
           {
             "type": "graphqltransformer:resourceName",
-            "data": "SubscriptionOnDeleteTodoDataResolverFn"
+            "data": "SubscriptionOnDeleteUserProfileDataResolverFn"
           }
         ],
-        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/Todo/subscriptionOnDeleteTodoResolver": [
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/UserProfile/subscriptionOnDeleteUserProfileResolver": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "SubscriptiononDeleteTodoResolver"
+            "data": "SubscriptiononDeleteUserProfileResolver"
           },
           {
             "type": "graphqltransformer:resourceName",
-            "data": "Subscription.onDeleteTodo"
+            "data": "Subscription.onDeleteUserProfile"
           }
         ],
-        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/Todo/CDKMetadata/Default": [
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/UserProfile/UserProfileProfileOwnerDataResolverFn/UserProfileProfileOwnerDataResolverFn.AppSyncFunction": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "UserProfileProfileOwnerDataResolverFnUserProfileProfileOwnerDataResolverFnAppSyncFunction8169467C"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "UserProfileProfileOwnerDataResolverFn"
+          }
+        ],
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/UserProfile/userProfileProfileOwnerResolver": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "UserProfileprofileOwnerResolver"
+          },
+          {
+            "type": "graphqltransformer:resourceName",
+            "data": "UserProfile.profileOwner"
+          }
+        ],
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/UserProfile/CDKMetadata/Default": [
           {
             "type": "aws:cdk:logicalId",
             "data": "CDKMetadata"
           }
         ],
-        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/Todo/CDKMetadata/Condition": [
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/UserProfile/CDKMetadata/Condition": [
           {
             "type": "aws:cdk:logicalId",
             "data": "CDKMetadataAvailable"
           }
         ],
-        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/Todo/reference-to-amplifyprofilesappsebdusandbox47155a53f0dataamplifyDataAmplifyTableManagerNestedStackAmplifyTableManagerNestedStackResourceCAE6E038Outputs.amplifyprofilesappsebdusandbox47155a53f0dataamplifyDataAmplifyTableManagerTableManagerCustomProviderframeworkonEvent65F96048Arn": [
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/UserProfile/reference-to-amplifyprofilesappsebdusandbox47155a53f0dataamplifyDataAmplifyTableManagerNestedStackAmplifyTableManagerNestedStackResourceCAE6E038Outputs.amplifyprofilesappsebdusandbox47155a53f0dataamplifyDataAmplifyTableManagerTableManagerCustomProviderframeworkonEvent65F96048Arn": [
           {
             "type": "aws:cdk:logicalId",
             "data": "referencetoamplifyprofilesappsebdusandbox47155a53f0dataamplifyDataAmplifyTableManagerNestedStackAmplifyTableManagerNestedStackResourceCAE6E038Outputsamplifyprofilesappsebdusandbox47155a53f0dataamplifyDataAmplifyTableManagerTableManagerCusto4816CD2E"
           }
         ],
-        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/Todo/reference-to-amplifyprofilesappsebdusandbox47155a53f0dataamplifyDataGraphQLAPIBEEBC7AFApiId": [
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/UserProfile/reference-to-amplifyprofilesappsebdusandbox47155a53f0dataamplifyDataGraphQLAPIBEEBC7AFApiId": [
           {
             "type": "aws:cdk:logicalId",
             "data": "referencetoamplifyprofilesappsebdusandbox47155a53f0dataamplifyDataGraphQLAPIBEEBC7AFApiId"
           }
         ],
-        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/Todo/reference-to-amplifyprofilesappsebdusandbox47155a53f0dataamplifyDataGraphQLAPINONEDS48C47082Name": [
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/UserProfile/reference-to-amplifyprofilesappsebdusandbox47155a53f0dataamplifyDataGraphQLAPINONEDS48C47082Name": [
           {
             "type": "aws:cdk:logicalId",
             "data": "referencetoamplifyprofilesappsebdusandbox47155a53f0dataamplifyDataGraphQLAPINONEDS48C47082Name"
           }
         ],
-        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/Todo/reference-to-amplifyprofilesappsebdusandbox47155a53f0authNestedStackauthNestedStackResource12B846B4Outputs.amplifyprofilesappsebdusandbox47155a53f0authamplifyAuthauthenticatedUserRole520BB83CRef": [
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/UserProfile/reference-to-amplifyprofilesappsebdusandbox47155a53f0authNestedStackauthNestedStackResource12B846B4Outputs.amplifyprofilesappsebdusandbox47155a53f0authamplifyAuthauthenticatedUserRole520BB83CRef": [
           {
             "type": "aws:cdk:logicalId",
             "data": "referencetoamplifyprofilesappsebdusandbox47155a53f0authNestedStackauthNestedStackResource12B846B4Outputsamplifyprofilesappsebdusandbox47155a53f0authamplifyAuthauthenticatedUserRole520BB83CRef"
           }
         ],
-        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/Todo/reference-to-amplifyprofilesappsebdusandbox47155a53f0authNestedStackauthNestedStackResource12B846B4Outputs.amplifyprofilesappsebdusandbox47155a53f0authamplifyAuthunauthenticatedUserRoleFBB631B0Ref": [
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/UserProfile/reference-to-amplifyprofilesappsebdusandbox47155a53f0authNestedStackauthNestedStackResource12B846B4Outputs.amplifyprofilesappsebdusandbox47155a53f0authamplifyAuthunauthenticatedUserRoleFBB631B0Ref": [
           {
             "type": "aws:cdk:logicalId",
             "data": "referencetoamplifyprofilesappsebdusandbox47155a53f0authNestedStackauthNestedStackResource12B846B4Outputsamplifyprofilesappsebdusandbox47155a53f0authamplifyAuthunauthenticatedUserRoleFBB631B0Ref"
           }
         ],
-        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/Todo/reference-to-amplifyprofilesappsebdusandbox47155a53f0authNestedStackauthNestedStackResource12B846B4Outputs.amplifyprofilesappsebdusandbox47155a53f0authamplifyAuthIdentityPool7BB5FB72Ref": [
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/UserProfile/reference-to-amplifyprofilesappsebdusandbox47155a53f0authNestedStackauthNestedStackResource12B846B4Outputs.amplifyprofilesappsebdusandbox47155a53f0authamplifyAuthIdentityPool7BB5FB72Ref": [
           {
             "type": "aws:cdk:logicalId",
             "data": "referencetoamplifyprofilesappsebdusandbox47155a53f0authNestedStackauthNestedStackResource12B846B4Outputsamplifyprofilesappsebdusandbox47155a53f0authamplifyAuthIdentityPool7BB5FB72Ref"
           }
         ],
-        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/Todo.NestedStack/Todo.NestedStackResource": [
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/UserProfile.NestedStack/UserProfile.NestedStackResource": [
           {
             "type": "aws:cdk:logicalId",
-            "data": "amplifyDataTodoNestedStackTodoNestedStackResource551CEA56"
-          }
-        ],
-        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/AuthRolePolicy01/Resource": [
-          {
-            "type": "aws:cdk:logicalId",
-            "data": "amplifyDataAuthRolePolicy01567A5654"
-          }
-        ],
-        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/UnauthRolePolicy01/Resource": [
-          {
-            "type": "aws:cdk:logicalId",
-            "data": "amplifyDataUnauthRolePolicy01355B9DCF"
+            "data": "amplifyDataUserProfileNestedStackUserProfileNestedStackResource1B3713C5"
           }
         ],
         "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyData/AmplifyCodegenAssets/AmplifyCodegenAssetsBucket/Resource": [
@@ -1069,6 +1155,12 @@
             "data": "AMPLIFYDATADEFAULTNAMEParameterE7C23CC4"
           }
         ],
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/GraphqlAccessPolicy1/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "GraphqlAccessPolicy11EF5618C"
+          }
+        ],
         "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/CDKMetadata/Default": [
           {
             "type": "aws:cdk:logicalId",
@@ -1105,6 +1197,12 @@
             "data": "referencetoamplifyprofilesappsebdusandbox47155a53f0authNestedStackauthNestedStackResource12B846B4Outputsamplifyprofilesappsebdusandbox47155a53f0authamplifyAuthIdentityPool7BB5FB72Ref"
           }
         ],
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/reference-to-amplifyprofilesappsebdusandbox47155a53f0functionNestedStackfunctionNestedStackResourceF00B961BOutputs.amplifyprofilesappsebdusandbox47155a53f0functionpostconfirmationlambdaServiceRole204ED560Ref": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "referencetoamplifyprofilesappsebdusandbox47155a53f0functionNestedStackfunctionNestedStackResourceF00B961BOutputsamplifyprofilesappsebdusandbox47155a53f0functionpostconfirmationlambdaServiceRole204ED560Ref"
+          }
+        ],
         "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyprofilesappsebdusandbox47155a53f0dataamplifyDataGraphQLAPIBEEBC7AFApiId": [
           {
             "type": "aws:cdk:logicalId",
@@ -1121,6 +1219,12 @@
           {
             "type": "aws:cdk:logicalId",
             "data": "amplifyprofilesappsebdusandbox47155a53f0dataamplifyDataAmplifyCodegenAssetsAmplifyCodegenAssetsDeploymentCustomResource1536MiB76667499DestinationBucketArn"
+          }
+        ],
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data/amplifyprofilesappsebdusandbox47155a53f0dataamplifyDataGraphQLAPIDefaultApiKey31999B2AApiKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "amplifyprofilesappsebdusandbox47155a53f0dataamplifyDataGraphQLAPIDefaultApiKey31999B2AApiKey"
           }
         ],
         "/amplify-profilesapp-sebdu-sandbox-47155a53f0/data.NestedStack/data.NestedStackResource": [
@@ -1157,6 +1261,12 @@
           {
             "type": "aws:cdk:logicalId",
             "data": "amplifyApiModelSchemaS3Uri"
+          }
+        ],
+        "/amplify-profilesapp-sebdu-sandbox-47155a53f0/awsAppsyncApiKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "awsAppsyncApiKey"
           }
         ],
         "/amplify-profilesapp-sebdu-sandbox-47155a53f0/awsAppsyncAdditionalAuthenticationTypes": [
